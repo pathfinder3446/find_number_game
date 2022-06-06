@@ -8,18 +8,28 @@
 body{
     
     height: 100vh;
-    background: linear-gradient(#EB7459, #EBAB75);
+    background-image: url(./img/numbers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
 }
 
 .container{
+    background: linear-gradient(gray, white);
     text-align: center;
-    margin-top: 3rem;
-    height: 100vh;
+    margin: auto;
+    height: 70vh;
+    align-items: center;
+    width: 60%;
+    border-radius: 10px;
    
 }
 
 h1{
-    margin-bottom: 2rem;
+    margin: 1rem 0;
+    padding: 4px;
 }
 
 .btn{
@@ -37,7 +47,11 @@ h1{
 }
 
 .guessing{
-    margin-bottom: 5rem;
+    margin: 3rem 0 4rem;
+}
+
+.attempts-section{
+    margin-top: 6.5rem;
 }
 
 .result{
